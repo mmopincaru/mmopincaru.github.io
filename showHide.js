@@ -2,22 +2,21 @@ $(document).ready(function(){
 
 	$(".showing").click(function() {
 
-	    $(".list_options").show();
+			$(".dropdown-menu").show();
 
-	    $(".hiding").show();
+	    	$(".hiding").show();
 
-	    $(".showing").hide();
+	    	$(".showing").hide();
 
 	});
 
-
 	$(".hiding").click(function(){
-
-	    $(".list_options").hide();
 
 	    $(".hiding").hide();
 
 	    $(".showing").show();
+
+	    $(".dropdown-menu").hide();
 
 	});
 	

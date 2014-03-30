@@ -24,14 +24,14 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-toggle"></span>
             </button>
-            <a class="navbar-brand" href="#">Dashboard</a>
+            <a class="navbar-brand" href="#">My Webpage</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
         
             <li class="dropdown">
               <a class="dropdown-toggle" role="button" data-toggle="dropdown" href="#"> Admin <span class="caret"></span></a>
-              <ul id="g-account-menu" class="dropdown-menu" role="menu">
+              <ul id="g-account-menu" class="dropdown-menu-nav" role="menu">
                 <li><a href="#">My Profile</a></li>
               </ul>
             </li>
@@ -41,14 +41,17 @@
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="dropdown-menu-left">
         <div class="col-md-3">
           <a href="#"><strong>Tools</strong></a>  
                
-          <ul class="list-unstyled">
+          <ul class="nav nav-pills nav-stacked">
             <li class="nav-header"> 
-              <a href="#" data-toggle="collapse" data-target="#menu2">
+              <a href="#" data-toggle="collapse" data-target="#menu2"class="showing">
                 <h5>Browse </h5>
+              </a>
+              <a href="#" data-toggle="collapse" data-target="#menu2"class="hiding" style="display:none;">
+                <h5 >Browse</h5>
               </a>
             
               <ul class="dropdown-menu" id="menu2">
@@ -63,7 +66,7 @@
               </ul>
             </li>
             <li class="nav-header">
-              <a href="#" data-toggle="collapse" data-target="#menu3">
+              <a href="#" data-toggle="collapse" data-target="#menu3"class="showing2">
                 <h5>Social Media </h5>
               </a>
             
@@ -85,21 +88,23 @@
             <li><a href="#"> Pages</a></li>
             <li><a href="#"> Social Media</a></li>
           </ul>
+        </div>
+      </div>
           
-    		  <div class="row">
+    		  <div class="right-content">
           	<div class="col-md-6">
               <div class="btn-group btn-group-justified">
                 <a href="#" class="btn btn-primary col-sm-3"><br>
-                  Service
+                  Home
                 </a>
                 <a href="#" class="btn btn-primary col-sm-3"><br>
-                  Cloud
+                  This
                 </a>
                 <a href="#" class="btn btn-primary col-sm-3"><br>
-                  Tools
+                  About
                 </a>
                 <a href="#" class="btn btn-primary col-sm-3"><br>
-                  Help
+                  Contact
                 </a>
               </div>
        
@@ -123,22 +128,6 @@
                   </div>
 
               </div>
-                  
-              <table class="table table-striped">
-
-                <thead>
-                  <tr><th>Visits</th><th>ROI</th><th>Source</th></tr>
-                </thead>
-
-                <tbody>
-                  <tr><td>45</td><td>2.45%</td><td>Direct</td></tr>
-                  <tr><td>289</td><td>56.2%</td><td>Referral</td></tr>
-                  <tr><td>98</td><td>25%</td><td>Type</td></tr>
-                  <tr><td>..</td><td>..</td><td>..</td></tr>
-                  <tr><td>..</td><td>..</td><td>..</td></tr>
-                </tbody>
-
-              </table>
                   
               <div class="panel panel-default">
 
@@ -188,33 +177,11 @@
                 </div>
               </div>
                   
-              <div class="panel panel-default">
-                <div class="panel-heading">
-                  <div class="panel-title">
-                    <h4>Engagement</h4>
-                  </div>
-                </div>
-
-                <div class="panel-body">	
-                  <div class="col-xs-4 text-center">
-                    <img src="http://placehold.it/80/BBBBBB/FFF" class="img-circle img-responsive">
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <img src="http://placehold.it/80/EFEFEF/555" class="img-circle img-responsive">
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <img src="http://placehold.it/80/EEEEEE/222" class="img-circle img-responsive">
-                  </div>
-                </div>
-              </div>
-                  
             </div>
          
           </div>
           
         </div>
-      </div>
-    </div>
 
     <div class="panel-footer">
      Copyright &copy; Maria-Madalina Opincaru, TwinKid Ltd.
